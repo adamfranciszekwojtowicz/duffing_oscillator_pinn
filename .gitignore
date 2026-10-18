@@ -1,0 +1,8 @@
+# training results, local to each person
+runs/
+*.pt
+
+# environment and editor clutter
+.venv/
+.ipynb_checkpoints/
+__pycache__/
