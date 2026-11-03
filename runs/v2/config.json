@@ -1,0 +1,42 @@
+{
+  "note": "",
+  "started": "2026-10-18 20:46:15",
+  "num_samples": 5000,
+  "num_time_steps": 1000,
+  "t_max": 30.0,
+  "train_size": 3500,
+  "val_size": 500,
+  "test_size": 1000,
+  "param_low": [
+    -1.0,
+    0.1,
+    0.0,
+    0.0,
+    0.5,
+    -2.0,
+    -2.0
+  ],
+  "param_high": [
+    1.0,
+    1.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.0
+  ],
+  "xi": 0.65,
+  "n_col": 2048,
+  "w_ic": 1.0,
+  "phys_scale": 1.0,
+  "tolerance": 0.05,
+  "epochs_planned": 5000,
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "checkpoint_metric": "val_rel_l2_median",
+  "architecture": "8-64-128-128-1",
+  "activation": "GELU",
+  "n_params": 25537,
+  "device": "cuda"
+}

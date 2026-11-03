@@ -1,0 +1,58 @@
+{
+  "note": "",
+  "started": "2026-11-01 01:19:36",
+  "num_samples": 25000,
+  "num_time_steps": 1000,
+  "t_max": 30.0,
+  "train_size": 21000,
+  "val_size": 3750,
+  "test_size": 250,
+  "param_low": [
+    -1.0,
+    0.1,
+    0.0,
+    0.0,
+    0.5,
+    -2.0,
+    -2.0
+  ],
+  "param_high": [
+    1.0,
+    1.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.0
+  ],
+  "xi": 0.75,
+  "n_col": 2048,
+  "w_ic": 1.0,
+  "phys_scale": 1.0,
+  "tolerance": 0.05,
+  "epochs_planned": 1900,
+  "batch_size": 64,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "scheduler": "CosineAnnealingLR",
+  "lr_min": 5e-05,
+  "cosine_epochs": 1800,
+  "grad_clip": 1.0,
+  "weight_decay": 0.0001,
+  "patience": null,
+  "checkpoint_metric": "val_rel_l2_median",
+  "architecture": "8-64-128-256-512-512-256-1",
+  "activation": "LeakyReLU",
+  "n_params": 567745,
+  "device": "cuda",
+  "hard_frac": 0.0,
+  "phys_hard_frac": 0.0,
+  "hard_alpha": [
+    -1.0,
+    0.0
+  ],
+  "hard_delta": [
+    0.0,
+    0.18
+  ]
+}

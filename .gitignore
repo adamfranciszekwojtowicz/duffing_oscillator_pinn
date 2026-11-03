@@ -1,8 +1,8 @@
-# training results, local to each person
-runs/
-*.pt
-
 # environment and editor clutter
 .venv/
 .ipynb_checkpoints/
 __pycache__/
+
+# model weights: only the ones inside run folders are tracked
+*.pt
+!runs/**/*.pt
