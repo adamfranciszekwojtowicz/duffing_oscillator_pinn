@@ -2,6 +2,7 @@
 .venv/
 .ipynb_checkpoints/
 __pycache__/
+presentation_v1/
 
 # model weights: only the ones inside run folders are tracked
 *.pt
